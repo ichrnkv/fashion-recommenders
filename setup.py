@@ -15,7 +15,7 @@ install_requires = [
     "tqdm",
     "scikit-learn",
     "gradio",
-    "faiss-gpu",
+    "faiss-cpu",
     "sqlalchemy",
 ],
 
