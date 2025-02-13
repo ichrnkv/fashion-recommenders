@@ -24,7 +24,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    version='0.1.1',
+    version='0.1.2',
     
     name='fashion_recommenders', 
     description='An easy-to-use PyTorch-based package for fashion recommendation models',
@@ -33,7 +33,8 @@ setup(
     
     author='Wonjun, Oh',
     author_email='owj0421@naver.com',
-    packages=find_packages(where='src'),
+    packages=find_packages(),
+    include_package_data=True,
     
     url='https://github.com/owj0421/fashion_recommenders',
     license='MIT',
