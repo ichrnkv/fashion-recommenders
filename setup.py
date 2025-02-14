@@ -3,6 +3,8 @@ from setuptools import setup
 from setuptools import setup, find_packages
 
 setup_requires = [
+    "setuptools",
+    "wheel"
 ]
 
 install_requires = [
@@ -33,12 +35,11 @@ setup(
     
     author='Wonjun, Oh',
     author_email='owj0421@naver.com',
+    package_dir={"": "src"},
     packages=find_packages(where='src'),
     include_package_data=True,
-    
     url='https://github.com/owj0421/fashion_recommenders',
     license='MIT',
-
     python_requires='>=3.10',
     setup_requires=setup_requires,
     install_requires = install_requires,
