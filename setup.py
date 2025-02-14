@@ -33,7 +33,7 @@ setup(
     
     author='Wonjun, Oh',
     author_email='owj0421@naver.com',
-    packages=find_packages(),
+    packages=find_packages(where='src'),
     include_package_data=True,
     
     url='https://github.com/owj0421/fashion_recommenders',
