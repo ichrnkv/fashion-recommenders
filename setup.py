@@ -26,7 +26,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    version='0.1.2',
+    version='0.1.3',
     
     name='fashion_recommenders', 
     description='An easy-to-use PyTorch-based package for fashion recommendation models',
